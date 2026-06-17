@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-16",
+  "agents": [
+    {
+      "slug": "chief-of-staff",
+      "name": "Chief of Staff",
+      "category": "Productivity",
+      "version": "0.1.0",
+      "adfVersion": "0.2",
+      "license": "MIT",
+      "published": false,
+      "file": { "name": "chief-of-staff-0.1.0.adf", "url": null, "sha256": null, "sizeBytes": null }
+    },
+    {
+      "slug": "repo-reviewer",
+      "name": "Repo Reviewer",
+      "category": "Engineering",
+      "version": "0.1.0",
+      "adfVersion": "0.2",
+      "license": "MIT",
+      "published": false,
+      "file": { "name": "repo-reviewer-0.1.0.adf", "url": null, "sha256": null, "sizeBytes": null }
+    },
+    {
+      "slug": "qa-runner",
+      "name": "QA Runner",
+      "category": "Engineering",
+      "version": "0.1.0",
+      "adfVersion": "0.2",
+      "license": "MIT",
+      "published": false,
+      "file": { "name": "qa-runner-0.1.0.adf", "url": null, "sha256": null, "sizeBytes": null }
+    },
+    {
+      "slug": "support-desk",
+      "name": "Support Desk",
+      "category": "Support",
+      "version": "0.1.0",
+      "adfVersion": "0.2",
+      "license": "MIT",
+      "published": false,
+      "file": { "name": "support-desk-0.1.0.adf", "url": null, "sha256": null, "sizeBytes": null }
+    },
+    {
+      "slug": "research-scout",
+      "name": "Research Scout",
+      "category": "Research",
+      "version": "0.1.0",
+      "adfVersion": "0.2",
+      "license": "MIT",
+      "published": false,
+      "file": { "name": "research-scout-0.1.0.adf", "url": null, "sha256": null, "sizeBytes": null }
+    }
+  ]
+}

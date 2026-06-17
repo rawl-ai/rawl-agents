@@ -1,0 +1,11 @@
+# Build artifacts / local .adf builds (publish via Release assets, not the tree)
+*.adf
+dist/
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
