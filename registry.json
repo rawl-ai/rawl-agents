@@ -1,56 +1,89 @@
 {
-  "version": 1,
-  "updatedAt": "2026-06-16",
+  "version": 2,
+  "updatedAt": "2026-07-02",
+  "_schema": {
+    "status": "live | coming-soon. Live entries must have file.tag/name/sha256; the site build downloads the asset, verifies the sha256, and extracts name/description/instructions from the .adf itself. Coming-soon entries render from the curated fields here (no file yet).",
+    "file": "Release asset in this repo: https://github.com/rawl-ai/rawl-agents/releases/download/<tag>/<name>",
+    "naming": "Agents get botanical given names (ash, sage, hazel, fern, ...). The family signature is the filename form: lowercase name + .adf. Job/role lives in tagline and category, never in the name.",
+    "capabilities": "Curated disclosure of what the agent uses: channels, tools, mcp, sandbox (js|container|host), network. Shown on the agent page so people know what they're opening."
+  },
   "agents": [
     {
-      "slug": "chief-of-staff",
-      "name": "Chief of Staff",
-      "category": "Productivity",
+      "slug": "ash",
+      "status": "live",
+      "category": "Personal",
+      "icon": "Sprout",
+      "tags": ["assistant", "memory", "starter"],
+      "featured": true,
       "version": "0.1.0",
       "adfVersion": "0.2",
       "license": "MIT",
-      "published": false,
-      "file": { "name": "chief-of-staff-0.1.0.adf", "url": null, "sha256": null, "sizeBytes": null }
+      "updatedAt": "2026-07-02",
+      "tagline": "A portable personal assistant that learns your environment and improves through use.",
+      "capabilities": {
+        "channels": [],
+        "tools": ["filesystem"],
+        "mcp": [],
+        "sandbox": "js",
+        "network": false
+      },
+      "file": {
+        "tag": "ash-0.1.0",
+        "name": "ash-0.1.0.adf",
+        "sha256": "f7ef2f5c311ca1dab0b71cc183b19ab38f9c25d504098c95155dd00073ecd1e1",
+        "sizeBytes": 172032
+      }
     },
     {
-      "slug": "repo-reviewer",
-      "name": "Repo Reviewer",
-      "category": "Engineering",
+      "slug": "sage",
+      "status": "coming-soon",
+      "category": "Personal",
+      "icon": "MessageSquare",
+      "tags": ["confidant", "memory"],
+      "featured": false,
       "version": "0.1.0",
       "adfVersion": "0.2",
       "license": "MIT",
-      "published": false,
-      "file": { "name": "repo-reviewer-0.1.0.adf", "url": null, "sha256": null, "sizeBytes": null }
+      "updatedAt": "2026-07-02",
+      "name": "sage",
+      "tagline": "A confidant that remembers you and never reports back to a company.",
+      "description": "Think out loud with something that knows your context. Sage keeps a long, private memory of what matters to you, entirely inside its file, on your machine.",
+      "capabilities": { "channels": [], "tools": ["filesystem"], "mcp": [], "sandbox": "js", "network": false },
+      "file": { "tag": null, "name": null, "sha256": null, "sizeBytes": null }
     },
     {
-      "slug": "qa-runner",
-      "name": "QA Runner",
-      "category": "Engineering",
+      "slug": "hazel",
+      "status": "coming-soon",
+      "category": "Personal",
+      "icon": "PiggyBank",
+      "tags": ["money", "budgeting", "private"],
+      "featured": false,
       "version": "0.1.0",
       "adfVersion": "0.2",
       "license": "MIT",
-      "published": false,
-      "file": { "name": "qa-runner-0.1.0.adf", "url": null, "sha256": null, "sizeBytes": null }
+      "updatedAt": "2026-07-02",
+      "name": "hazel",
+      "tagline": "Your money, kept private. Budgets and finds waste without anything leaving your machine.",
+      "description": "Hand hazel your statements and it budgets, spots waste, and answers “can I afford this?” — the financial questions you’d never type into someone else’s cloud.",
+      "capabilities": { "channels": [], "tools": ["filesystem"], "mcp": [], "sandbox": "js", "network": false },
+      "file": { "tag": null, "name": null, "sha256": null, "sizeBytes": null }
     },
     {
-      "slug": "support-desk",
-      "name": "Support Desk",
-      "category": "Support",
+      "slug": "fern",
+      "status": "coming-soon",
+      "category": "Knowledge",
+      "icon": "Leaf",
+      "tags": ["notes", "markdown", "organization"],
+      "featured": false,
       "version": "0.1.0",
       "adfVersion": "0.2",
       "license": "MIT",
-      "published": false,
-      "file": { "name": "support-desk-0.1.0.adf", "url": null, "sha256": null, "sizeBytes": null }
-    },
-    {
-      "slug": "research-scout",
-      "name": "Research Scout",
-      "category": "Research",
-      "version": "0.1.0",
-      "adfVersion": "0.2",
-      "license": "MIT",
-      "published": false,
-      "file": { "name": "research-scout-0.1.0.adf", "url": null, "sha256": null, "sizeBytes": null }
+      "updatedAt": "2026-07-02",
+      "name": "fern",
+      "tagline": "A notes agent that tends thousands of markdown docs living inside its file.",
+      "description": "Fern keeps your notes: organizing, linking, and answering across thousands of markdown documents stored inside the agent itself. A private knowledge base you own outright.",
+      "capabilities": { "channels": [], "tools": ["filesystem"], "mcp": [], "sandbox": "js", "network": false },
+      "file": { "tag": null, "name": null, "sha256": null, "sizeBytes": null }
     }
   ]
 }
