@@ -13,77 +13,102 @@
       "status": "live",
       "category": "Personal",
       "icon": "Sprout",
-      "tags": ["assistant", "memory", "starter"],
+      "tags": [
+        "assistant",
+        "memory",
+        "starter"
+      ],
       "featured": true,
-      "version": "0.1.0",
+      "version": "0.1.1",
       "adfVersion": "0.2",
       "license": "MIT",
       "updatedAt": "2026-07-02",
       "tagline": "A portable personal assistant that learns your environment and improves through use.",
       "capabilities": {
-        "channels": [],
-        "tools": ["filesystem"],
+        "channels": [
+          "telegram"
+        ],
+        "tools": [
+          "filesystem"
+        ],
         "mcp": [],
         "sandbox": "js",
         "network": false
       },
       "file": {
-        "tag": "ash-0.1.0",
-        "name": "ash-0.1.0.adf",
-        "sha256": "f7ef2f5c311ca1dab0b71cc183b19ab38f9c25d504098c95155dd00073ecd1e1",
+        "tag": "ash-0.1.1",
+        "name": "ash-0.1.1.adf",
+        "sha256": "9e61f51dde856299e875d364d74920d30f3c17a0edd352ce083dd8f8cad74e9f",
         "sizeBytes": 172032
       }
     },
     {
       "slug": "sage",
       "status": "coming-soon",
-      "category": "Personal",
-      "icon": "MessageSquare",
-      "tags": ["confidant", "memory"],
+      "category": "ADF",
+      "icon": "BookOpen",
+      "tags": [
+        "adf",
+        "spec",
+        "expert"
+      ],
       "featured": false,
       "version": "0.1.0",
       "adfVersion": "0.2",
       "license": "MIT",
       "updatedAt": "2026-07-02",
       "name": "sage",
-      "tagline": "A confidant that remembers you and never reports back to a company.",
-      "description": "Think out loud with something that knows your context. Sage keeps a long, private memory of what matters to you, entirely inside its file, on your machine.",
-      "capabilities": { "channels": [], "tools": ["filesystem"], "mcp": [], "sandbox": "js", "network": false },
-      "file": { "tag": null, "name": null, "sha256": null, "sizeBytes": null }
+      "tagline": "An ADF expert. Ask it anything about the format, the spec, or ADF Studio.",
+      "description": "Sage knows the ADF specification, ADF Studio, and the runtime inside out. Keep it beside you while you build: it answers questions about the format, debugs agent configs, and explains what every table in a .adf does.",
+      "capabilities": {
+        "channels": [],
+        "tools": [
+          "filesystem"
+        ],
+        "mcp": [],
+        "sandbox": "js",
+        "network": false
+      },
+      "file": {
+        "tag": null,
+        "name": null,
+        "sha256": null,
+        "sizeBytes": null
+      }
     },
     {
-      "slug": "hazel",
+      "slug": "willow",
       "status": "coming-soon",
-      "category": "Personal",
-      "icon": "PiggyBank",
-      "tags": ["money", "budgeting", "private"],
+      "category": "ADF",
+      "icon": "Hammer",
+      "tags": [
+        "builder",
+        "scaffolding",
+        "agents"
+      ],
       "featured": false,
       "version": "0.1.0",
       "adfVersion": "0.2",
       "license": "MIT",
       "updatedAt": "2026-07-02",
-      "name": "hazel",
-      "tagline": "Your money, kept private. Budgets and finds waste without anything leaving your machine.",
-      "description": "Hand hazel your statements and it budgets, spots waste, and answers “can I afford this?” — the financial questions you’d never type into someone else’s cloud.",
-      "capabilities": { "channels": [], "tools": ["filesystem"], "mcp": [], "sandbox": "js", "network": false },
-      "file": { "tag": null, "name": null, "sha256": null, "sizeBytes": null }
-    },
-    {
-      "slug": "fern",
-      "status": "coming-soon",
-      "category": "Knowledge",
-      "icon": "Leaf",
-      "tags": ["notes", "markdown", "organization"],
-      "featured": false,
-      "version": "0.1.0",
-      "adfVersion": "0.2",
-      "license": "MIT",
-      "updatedAt": "2026-07-02",
-      "name": "fern",
-      "tagline": "A notes agent that tends thousands of markdown docs living inside its file.",
-      "description": "Fern keeps your notes: organizing, linking, and answering across thousands of markdown documents stored inside the agent itself. A private knowledge base you own outright.",
-      "capabilities": { "channels": [], "tools": ["filesystem"], "mcp": [], "sandbox": "js", "network": false },
-      "file": { "tag": null, "name": null, "sha256": null, "sizeBytes": null }
+      "name": "willow",
+      "tagline": "An agent that builds agents. Describe what you need and it raises a new .adf.",
+      "description": "Willow scaffolds new agents: give it a goal and it creates the .adf, writes the instructions, wires the tools and channels, and hands you a file ready to grow.",
+      "capabilities": {
+        "channels": [],
+        "tools": [
+          "filesystem"
+        ],
+        "mcp": [],
+        "sandbox": "js",
+        "network": false
+      },
+      "file": {
+        "tag": null,
+        "name": null,
+        "sha256": null,
+        "sizeBytes": null
+      }
     }
   ]
 }
