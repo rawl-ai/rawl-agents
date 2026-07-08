@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-02",
+  "updatedAt": "2026-07-08",
   "_schema": {
     "status": "live | coming-soon. Live entries must have file.tag/name/sha256; the site build downloads the asset, verifies the sha256, and reads everything else (name, description, instructions, version, tables) from inside the .adf itself. Coming-soon entries render from the curated fields here.",
     "file": "Release asset in this repo: https://github.com/rawl-ai/rawl-agents/releases/download/<tag>/<name>. Assets are named <name>.adf; the version lives in adf_meta (key \"version\") and the release tag.",
@@ -10,16 +10,16 @@
     {
       "slug": "ash",
       "status": "live",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "adfVersion": "0.2",
       "license": "MIT",
-      "updatedAt": "2026-07-02",
+      "updatedAt": "2026-07-08",
       "tagline": "A portable personal assistant that learns your environment and improves through use.",
       "file": {
-        "tag": "ash-0.1.1",
+        "tag": "ash-0.1.2",
         "name": "ash.adf",
-        "sha256": "77d08630bf12f70718323f04e77953799520a0f767af912a1da1b58059681e0e",
-        "sizeBytes": 172032
+        "sha256": "a9c527a5fc36ff50fca498bcada3208c4bea9f662a5ca249663a9812e43ab771",
+        "sizeBytes": 180224
       }
     },
     {
