@@ -25,16 +25,16 @@
     {
       "slug": "sage",
       "status": "live",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "adfVersion": "0.2",
       "license": "MIT",
-      "updatedAt": "2026-07-02",
+      "updatedAt": "2026-07-08",
       "tagline": "An ADF expert. Ask it anything about the format, the spec, or ADF Studio.",
       "file": {
-        "tag": "sage-0.1.0",
+        "tag": "sage-0.1.1",
         "name": "sage.adf",
-        "sha256": "c5ddadd2d8dcd80ed173786751ad1b3f3e917de6855fc9c593c77517f93bf5b2",
-        "sizeBytes": 1798144
+        "sha256": "0526c7f9c361c5750fbb91f0888411fe5bfcd2d79738be191dfe51e02cbc8b6b",
+        "sizeBytes": 782336
       }
     },
     {
