@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-08",
+  "updatedAt": "2026-07-30",
   "_schema": {
     "status": "live | coming-soon. Live entries must have file.tag/name/sha256; the site build downloads the asset, verifies the sha256, and reads everything else (name, description, instructions, version, tables) from inside the .adf itself. Coming-soon entries render from the curated fields here.",
     "file": "Release asset in this repo: https://github.com/rawl-ai/rawl-agents/releases/download/<tag>/<name>. Assets are named <name>.adf; the version lives in adf_meta (key \"version\") and the release tag.",
@@ -47,6 +47,74 @@
       "name": "willow",
       "tagline": "An agent that builds agents. Describe what you need and it raises a new .adf.",
       "description": "Willow scaffolds new agents: give it a goal and it creates the .adf, writes the instructions, wires the tools and channels, and hands you a file ready to grow.",
+      "file": {
+        "tag": null,
+        "name": null,
+        "sha256": null,
+        "sizeBytes": null
+      }
+    },
+    {
+      "slug": "ivy",
+      "status": "coming-soon",
+      "version": "0.1.0",
+      "adfVersion": "0.2",
+      "license": "MIT",
+      "updatedAt": "2026-07-30",
+      "name": "ivy",
+      "tagline": "A research agent that watches your sources and delivers source-backed briefings.",
+      "description": "Ivy watches the sources you care about, separates signal from noise, and delivers briefings where every claim carries its source. One-off deep dives or standing watchlists, on your schedule.",
+      "file": {
+        "tag": null,
+        "name": null,
+        "sha256": null,
+        "sizeBytes": null
+      }
+    },
+    {
+      "slug": "oak",
+      "status": "coming-soon",
+      "version": "0.1.0",
+      "adfVersion": "0.2",
+      "license": "MIT",
+      "updatedAt": "2026-07-30",
+      "name": "oak",
+      "tagline": "A training coach that builds your program, logs your sessions, and adjusts as you go.",
+      "description": "Oak builds a program around your goals, equipment, and constraints, logs every session, and progresses the plan from what the log says. A steady coach, not a doctor: the record decides, and pain goes to professionals.",
+      "file": {
+        "tag": null,
+        "name": null,
+        "sha256": null,
+        "sizeBytes": null
+      }
+    },
+    {
+      "slug": "aspen",
+      "status": "coming-soon",
+      "version": "0.1.0",
+      "adfVersion": "0.2",
+      "license": "MIT",
+      "updatedAt": "2026-07-30",
+      "name": "aspen",
+      "tagline": "A personal-development agent: goals into steps, habits tracked, check-ins that keep you honest.",
+      "description": "Aspen turns goals into milestones and next actions, tracks progress on a shared scoreboard, and checks in on the channels you choose. Progress noticed, slippage called out — kindly, and never past the cadence you set.",
+      "file": {
+        "tag": null,
+        "name": null,
+        "sha256": null,
+        "sizeBytes": null
+      }
+    },
+    {
+      "slug": "cedar",
+      "status": "coming-soon",
+      "version": "0.1.0",
+      "adfVersion": "0.2",
+      "license": "MIT",
+      "updatedAt": "2026-07-30",
+      "name": "cedar",
+      "tagline": "A business-operations agent that staffs itself: it spawns the specialists the work needs, with your approval.",
+      "description": "Cedar triages the work, keeps the ops cadence, and tracks every delegation in a ledger where done means verified. When the load calls for it, it proposes and spawns specialist agents — every spawn owner-approved, every child a sovereign .adf you keep.",
       "file": {
         "tag": null,
         "name": null,
