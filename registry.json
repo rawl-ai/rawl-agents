@@ -56,70 +56,62 @@
     },
     {
       "slug": "ivy",
-      "status": "coming-soon",
+      "status": "live",
       "version": "0.1.0",
       "adfVersion": "0.2",
       "license": "MIT",
       "updatedAt": "2026-07-30",
-      "name": "ivy",
       "tagline": "A research agent that watches your sources and delivers source-backed briefings.",
-      "description": "Ivy watches the sources you care about, separates signal from noise, and delivers briefings where every claim carries its source. One-off deep dives or standing watchlists, on your schedule.",
       "file": {
-        "tag": null,
-        "name": null,
-        "sha256": null,
-        "sizeBytes": null
+        "tag": "ivy-0.1.0",
+        "name": "ivy.adf",
+        "sha256": "f40988a14d92d9bed74355e8b48a4ace457c522c16938f767a930035a7633b6b",
+        "sizeBytes": 184320
       }
     },
     {
       "slug": "oak",
-      "status": "coming-soon",
+      "status": "live",
       "version": "0.1.0",
       "adfVersion": "0.2",
       "license": "MIT",
       "updatedAt": "2026-07-30",
-      "name": "oak",
       "tagline": "A training coach that builds your program, logs your sessions, and adjusts as you go.",
-      "description": "Oak builds a program around your goals, equipment, and constraints, logs every session, and progresses the plan from what the log says. A steady coach, not a doctor: the record decides, and pain goes to professionals.",
       "file": {
-        "tag": null,
-        "name": null,
-        "sha256": null,
-        "sizeBytes": null
+        "tag": "oak-0.1.0",
+        "name": "oak.adf",
+        "sha256": "2d9b938f4ca0aead8f8df588082a17ff5c80c1bdbb8e0acbf18e34cbf4385d15",
+        "sizeBytes": 184320
       }
     },
     {
       "slug": "aspen",
-      "status": "coming-soon",
+      "status": "live",
       "version": "0.1.0",
       "adfVersion": "0.2",
       "license": "MIT",
       "updatedAt": "2026-07-30",
-      "name": "aspen",
       "tagline": "A personal-development agent: goals into steps, habits tracked, check-ins that keep you honest.",
-      "description": "Aspen turns goals into milestones and next actions, tracks progress on a shared scoreboard, and checks in on the channels you choose. Progress noticed, slippage called out — kindly, and never past the cadence you set.",
       "file": {
-        "tag": null,
-        "name": null,
-        "sha256": null,
-        "sizeBytes": null
+        "tag": "aspen-0.1.0",
+        "name": "aspen.adf",
+        "sha256": "79190cbd6c9960c2c75b95d7d2b04cd6dd51c86823a95bf203df085e4baec9fa",
+        "sizeBytes": 188416
       }
     },
     {
       "slug": "cedar",
-      "status": "coming-soon",
+      "status": "live",
       "version": "0.1.0",
       "adfVersion": "0.2",
       "license": "MIT",
       "updatedAt": "2026-07-30",
-      "name": "cedar",
       "tagline": "A business-operations agent that staffs itself: it spawns the specialists the work needs, with your approval.",
-      "description": "Cedar triages the work, keeps the ops cadence, and tracks every delegation in a ledger where done means verified. When the load calls for it, it proposes and spawns specialist agents — every spawn owner-approved, every child a sovereign .adf you keep.",
       "file": {
-        "tag": null,
-        "name": null,
-        "sha256": null,
-        "sizeBytes": null
+        "tag": "cedar-0.1.0",
+        "name": "cedar.adf",
+        "sha256": "4d9047eece93ce63cf37e154ab3d5007aaf77d078685e6673747442f03d71b99",
+        "sizeBytes": 188416
       }
     }
   ]
