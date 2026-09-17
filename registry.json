@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-30",
+  "updatedAt": "2026-09-17",
   "_schema": {
     "status": "live | coming-soon. Live entries must have file.tag/name/sha256; the site build downloads the asset, verifies the sha256, and reads everything else (name, description, instructions, version, tables) from inside the .adf itself. Coming-soon entries render from the curated fields here.",
     "file": "Release asset in this repo: https://github.com/rawl-ai/rawl-agents/releases/download/<tag>/<name>. Assets are named <name>.adf; the version lives in adf_meta (key \"version\") and the release tag.",
@@ -10,31 +10,31 @@
     {
       "slug": "ash",
       "status": "live",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "adfVersion": "0.2",
       "license": "MIT",
-      "updatedAt": "2026-07-08",
+      "updatedAt": "2026-09-17",
       "tagline": "A portable personal assistant that learns your environment and improves through use.",
       "file": {
-        "tag": "ash-0.1.3",
+        "tag": "ash-0.1.4",
         "name": "ash.adf",
-        "sha256": "d444273edd7b67594729346bb8aba77587c5d9699946fe87e3b38a9d322c0952",
-        "sizeBytes": 180224
+        "sha256": "e418899ebc996f332a21bef0148b2c36088109b6c4462332be13710fd53ae639",
+        "sizeBytes": 163840
       }
     },
     {
       "slug": "sage",
       "status": "live",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "adfVersion": "0.2",
       "license": "MIT",
-      "updatedAt": "2026-07-30",
+      "updatedAt": "2026-09-17",
       "tagline": "An ADF expert. Ask it anything about the format, the spec, or ADF Studio.",
       "file": {
-        "tag": "sage-0.1.3",
+        "tag": "sage-0.1.4",
         "name": "sage.adf",
-        "sha256": "4cfc791e9fe3121324b3bd523c4931bc1f2fb679dae918688ccacaa119c39088",
-        "sizeBytes": 782336
+        "sha256": "0b3873c6f06b65529b39a02fc0693d70b354457a2abe5c6f0b5f2775c5942424",
+        "sizeBytes": 1044480
       }
     },
     {
@@ -57,61 +57,61 @@
     {
       "slug": "ivy",
       "status": "live",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "adfVersion": "0.2",
       "license": "MIT",
-      "updatedAt": "2026-07-30",
+      "updatedAt": "2026-09-17",
       "tagline": "A research agent that watches your sources and delivers source-backed briefings.",
       "file": {
-        "tag": "ivy-0.1.0",
+        "tag": "ivy-0.1.1",
         "name": "ivy.adf",
-        "sha256": "f40988a14d92d9bed74355e8b48a4ace457c522c16938f767a930035a7633b6b",
-        "sizeBytes": 184320
+        "sha256": "89e69773981ba28f072a89b935f9d69eb25a09e37556d0678eff8736b357a8a5",
+        "sizeBytes": 172032
       }
     },
     {
       "slug": "oak",
       "status": "live",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "adfVersion": "0.2",
       "license": "MIT",
-      "updatedAt": "2026-07-30",
+      "updatedAt": "2026-09-17",
       "tagline": "A training coach that builds your program, logs your sessions, and adjusts as you go.",
       "file": {
-        "tag": "oak-0.1.0",
+        "tag": "oak-0.1.1",
         "name": "oak.adf",
-        "sha256": "2d9b938f4ca0aead8f8df588082a17ff5c80c1bdbb8e0acbf18e34cbf4385d15",
-        "sizeBytes": 184320
+        "sha256": "1133ce5a1e7cf52c82d1e148c54cf7717e1397e7d4cc0aede488f877d6ab3211",
+        "sizeBytes": 176128
       }
     },
     {
       "slug": "aspen",
       "status": "live",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "adfVersion": "0.2",
       "license": "MIT",
-      "updatedAt": "2026-07-30",
+      "updatedAt": "2026-09-17",
       "tagline": "A personal-development agent: goals into steps, habits tracked, check-ins that keep you honest.",
       "file": {
-        "tag": "aspen-0.1.0",
+        "tag": "aspen-0.1.1",
         "name": "aspen.adf",
-        "sha256": "79190cbd6c9960c2c75b95d7d2b04cd6dd51c86823a95bf203df085e4baec9fa",
-        "sizeBytes": 188416
+        "sha256": "4028c99907eb17de81ff4c0a3d920c8d3e8c6442bff2b02f36b0d61fe2624a3d",
+        "sizeBytes": 172032
       }
     },
     {
       "slug": "cedar",
       "status": "live",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "adfVersion": "0.2",
       "license": "MIT",
-      "updatedAt": "2026-07-30",
+      "updatedAt": "2026-09-17",
       "tagline": "A business-operations agent that staffs itself: it spawns the specialists the work needs, with your approval.",
       "file": {
-        "tag": "cedar-0.1.0",
+        "tag": "cedar-0.1.1",
         "name": "cedar.adf",
-        "sha256": "4d9047eece93ce63cf37e154ab3d5007aaf77d078685e6673747442f03d71b99",
-        "sizeBytes": 188416
+        "sha256": "4f7333bc1655aabdc645eb9817c08ffe43a3b6c625723085c60cc9a8cc6fbba3",
+        "sizeBytes": 180224
       }
     }
   ]
